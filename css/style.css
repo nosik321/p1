@@ -1,0 +1,54 @@
+
+/*----chaptwrs----*/
+.chapters {
+background-color: aquamarine;
+
+}
+.chapters h2 {
+text-align: center;
+padding: 20px;  
+margin: 0px;
+text-transform: uppercase;
+
+}
+.chapters > div {
+    position: relative;
+z-index: 1;
+}
+.chapters p {
+    padding: 20px;
+    background-color: rgba(240, 240, 240, 0.8);
+    border: 10px solid lightgray;
+    float: left;
+    box-sizing: border-box;
+    width: 31%;
+   margin-right: 3.3%;
+min-height: 140px;
+}
+.chapters div p:nth-child(3n){
+margin-right: 0px;
+
+
+}
+.chapters-background {
+    background-image: url('../images/blog-electrical.jpg');
+    position: absolute;
+   top: 0px;
+    height: 100%;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+background-position:center ;
+
+}
+footer{
+    background-color: black;
+    padding: 100px 0px 0px;
+    text-align: center;
+}
+footer p {
+    color: azure;
+    
+}
